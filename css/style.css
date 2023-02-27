@@ -12,7 +12,7 @@ body, .navbar-brand, .navbar-toggler, .nav-link{
     color:var(--white);
 }
 
-hr{
+main hr{
     width: 20%;
     opacity: 1;
     border: 2px solid;
@@ -21,6 +21,18 @@ hr{
 #about hr, #contact hr{
     width:10%;
 }
+
+#contact-form hr{
+    width:100%;
+    opacity: 0.50;
+    border: 1px solid;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: none;
+}
+
 
 #hero .img-fluid{
     max-width:50%;
