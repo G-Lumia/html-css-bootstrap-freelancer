@@ -12,6 +12,20 @@ body, .navbar-brand, .navbar-toggler, .nav-link{
     color:var(--white);
 }
 
+hr{
+    width: 20%;
+    opacity: 1;
+    border: 2px solid;
+}
+
+#about hr, #contact hr{
+    width:10%;
+}
+
+#hero .img-fluid{
+    max-width:50%;
+}
+
 .navbar-toggler{
     filter:invert(1);
 }
