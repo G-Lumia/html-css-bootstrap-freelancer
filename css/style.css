@@ -8,8 +8,12 @@
 
 }
 
-body{
+body, .navbar-brand, .navbar-toggler, .nav-link{
     color:var(--white);
+}
+
+.navbar-toggler{
+    filter:invert(1);
 }
 
 header, #bot-footer{
