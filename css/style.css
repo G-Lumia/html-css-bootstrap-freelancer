@@ -42,6 +42,10 @@ main hr{
     filter:invert(1);
 }
 
+.navbar-collapse {
+    flex-grow: 0;
+}
+
 header, #bot-footer{
     background-color: var(--dark-gray);
 }
