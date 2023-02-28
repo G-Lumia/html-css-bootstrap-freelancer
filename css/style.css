@@ -62,3 +62,10 @@ header, #bot-footer{
 #top-footer{
     background-color: var(--light-gray);
 }
+
+.rounded-circle{
+    border: 1px solid white;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+}
